@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(212, 215, 218);
+}
+.boder{
+    width: 600px;
+    height: 650px;
+    border: 1px rgb(187, 186, 186);
+    border-style: solid;
+    margin-left: 670px;
+    margin-top: 80px;
+}
+header{
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+}
+.inone{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.inone input{
+    width: 500px;
+    height: 30px;
+    border: none;
+}
+.inone span{
+    border: none;
+    background-color: rgb(20, 156, 180);
+    color: aliceblue;
+    padding: 3px;
+}
+.inone button{
+    border: none;
+    border-radius: 5px;
+    
+}
+.add{
+    text-align: center;
+}
+.add button{
+    width: 530px;
+    margin-top: 20px;
+    height: 30px;
+    border: none;
+    background-color: rgb(20, 156, 180);
+    color: aliceblue;
+}
+main{
+    margin-top: 20px;
+}
+.todo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+li{
+    margin-top: 6px;
+    padding: 14px;
+    border-color: rgb(74, 77, 80);
+}
+.del button{
+    width: 270px;
+    height: 30px;
+    background-color: rgb(211, 53, 53);
+    color: white;
+    border: none;
+     border-radius: 5px;
+}
+.del{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div class="boder">
+        <header>
+            <h2>
+                TodoInput
+            </h2>
+            <div class="inone">
+                <div>
+                    <button><span class="material-symbols-outlined">
+                            menu
+                        </span></button>
+                </div>
+                <div>
+                    <input id="todoInput" type="text" placeholder="New Todo">
+                </div>
+            </div>
+            <div class="add">
+                <button onclick="addNewTask()">Add new task</button>
+            </div>
+        </header>
+        <main>
+            <h2>
+                TodoList
+            </h2>
+            <hr>
+            <ul id="listTodo">
+                <!-- <li class="todo">
+                    <div>Learn React JS basies</div>
+                    <div class="function">
+                        <input onclick="completed()" class="done" type="checkbox">
+                        <ion-icon onclick="edits()" class="change" name="pencil-outline"></ion-icon>
+                        <ion-icon onclick="deletes()" class="delTodo" name="trash-bin-outline"></ion-icon>
+                    </div>
+                </li>
+                <hr> -->
+            </ul>
+            <div class="del">
+                <button onclick="deleteDoneTask()" class="delDone">Delete done tasks</button>
+                <button onclick="deleteAllTask()" class="delAll">Delete all tasks</button>
+            </div>
+        </main>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
